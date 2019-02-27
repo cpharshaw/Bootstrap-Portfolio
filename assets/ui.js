@@ -57,13 +57,15 @@ $(document).ready(function () {
 
         $("#landing").fadeIn(500);
     });
-    
 
-if ($("#toggleButton")) {
-	$(".nav-link").on("click", function() {
-		$("#toggleButton").click();
-	});
-}
+
+    // $(".nav-link").on("click", function () {
+    //     $("#toggleButton").click();
+    // });
+
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
 
 
 
