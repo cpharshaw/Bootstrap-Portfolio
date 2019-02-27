@@ -278,7 +278,7 @@ html {
 .nameLogo {
     font-size: 36px;
     color: whitesmoke;
-    text-shadow: .9px .9px 2px black;
+    text-shadow: 3px 3px 3px gray;
     /* font-family: 'roboto'; */
     font-family: 'Source Sans Pro', sans-serif;
     transition: 850ms;

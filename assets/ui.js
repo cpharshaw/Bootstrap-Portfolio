@@ -11,7 +11,7 @@ $(document).ready(function () {
         $("#contact").fadeOut(200);
         $("#landing").fadeOut(200);
 
-        $("#portfolio").fadeIn(1000);
+        $("#portfolio").fadeIn(800);
     });
 
 
@@ -26,7 +26,7 @@ $(document).ready(function () {
         $("#portfolio").fadeOut(200);
         $("#landing").fadeOut(200);
 
-        $("#about").fadeIn(1000);
+        $("#about").fadeIn(800);
     });
 
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
         $("#portfolio").fadeOut(200);
         $("#landing").fadeOut(200);
 
-        $("#contact").fadeIn(1000);
+        $("#contact").fadeIn(800);
     });
 
 
@@ -55,13 +55,9 @@ $(document).ready(function () {
         $("#portfolio").fadeOut(200);
         $("#contact").fadeOut(200);
 
-        $("#landing").fadeIn(1000);
+        $("#landing").fadeIn(800);
     });
 
-
-    // $(".nav-link").on("click", function () {
-    //     $("#toggleButton").click();
-    // });
 
     $('.navbar-collapse a').click(function(){
         $(".navbar-collapse").collapse('hide');
