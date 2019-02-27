@@ -26,7 +26,7 @@ $(document).ready(function () {
         $("#portfolio").fadeOut(200);
         $("#landing").fadeOut(200);
 
-        $("#about").fadeIn(750);
+        $("#about").fadeIn(1000);
     });
 
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
         $("#portfolio").fadeOut(200);
         $("#landing").fadeOut(200);
 
-        $("#contact").fadeIn(500);
+        $("#contact").fadeIn(1000);
     });
 
 
@@ -55,7 +55,7 @@ $(document).ready(function () {
         $("#portfolio").fadeOut(200);
         $("#contact").fadeOut(200);
 
-        $("#landing").fadeIn(500);
+        $("#landing").fadeIn(1000);
     });
 
 

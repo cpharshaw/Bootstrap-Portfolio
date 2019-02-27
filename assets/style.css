@@ -118,6 +118,7 @@ footer {
     color: #303030;
     text-shadow: 1px 1px 0.5px whitesmoke;
     font-family: 'La Belle Aurore', cursive;
+    
     transition: 850ms;
     text-decoration: none;
     /* border: 1px solid black; */
@@ -262,22 +263,32 @@ html {
 
 
 .plainText {
-    font-family: 'roboto';
+    /* font-family: 'roboto'; */
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     color: whitesmoke;
     text-shadow: 0.1px 0.1px 0.05px whitesmoke;
     text-decoration: none;
+
+    font-weight: 100;
+    /* font-size: 1.4em; */
+    /* margin: 1.5em 0 1em; */
 }
 
 .nameLogo {
     font-size: 36px;
     color: whitesmoke;
     text-shadow: .9px .9px 2px black;
-    font-family: 'roboto';
+    /* font-family: 'roboto'; */
+    font-family: 'Source Sans Pro', sans-serif;
     transition: 850ms;
     text-decoration: none;
 }
 
+
+#hr-custom {
+    border-top: 1px solid gray;
+}
 
 .projectText {
     background: rgba(19, 19, 35, 0.6);
