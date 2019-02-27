@@ -94,7 +94,7 @@ header {
 
 /* sticky footer styling bonus specs*/
 main {
-    min-height: calc(100vh - 93px);
+    min-height: calc(100vh - 65px);
 }
 
 footer {
