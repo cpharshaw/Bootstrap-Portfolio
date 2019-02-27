@@ -59,10 +59,12 @@ $(document).ready(function () {
     });
     
 
-
+if ($("#toggleButton")) {
 	$(".nav-link").on("click", function() {
 		$("#toggleButton").click();
 	});
+}
+
 
 
 });
