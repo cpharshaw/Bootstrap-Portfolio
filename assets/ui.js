@@ -60,7 +60,9 @@ $(document).ready(function () {
     
 
 
-
+	$(".nav-link").on("click", function() {
+		$("#toggleButton").click();
+	});
 
 
 });
