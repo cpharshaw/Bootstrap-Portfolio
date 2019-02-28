@@ -5,6 +5,7 @@
 } */
 
 
+
 h6 {
     /* background: #4aaaa5; */
     color: white;
@@ -13,8 +14,8 @@ h6 {
 }
 
 #dp {
-    max-width: 200px;
-    height: auto;
+    max-width: auto;
+    max-height: 300px;
     box-shadow: 0 0 7.5px rgba(230, 184, 154, .8) !important;
     border-radius: 10px;
 }
@@ -71,10 +72,12 @@ header {
 
 
 
-.img-fluid {
+ .portPic {
     max-width: 400px;
     max-height: 225px;
 }
+
+
 
 #portfolio, #contact, #about {
     display: none;
@@ -185,7 +188,7 @@ html {
 }
 
 #cpButton:hover {
-    background-color: darkgray;
+    background-color: #424242;
 	color: whitesmoke;
 	transition: background-color .7s;   
 }
@@ -245,15 +248,16 @@ html {
 }
 
 
-.plainText {
+.plainText, li {
     /* font-family: 'roboto'; */
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 16.25px;
     color: whitesmoke;
-    text-shadow: 0.1px 0.1px 0.05px whitesmoke;
+    text-shadow: 1.4px 1.4px 2px rgba(230, 184, 154, .8);
+    /* box-shadow: 0 0 7.5px rgba(230, 184, 154, .8) !important; */
     text-decoration: none;
 
-    font-weight: 100;
+    font-weight: 250;
     /* font-size: 1.4em; */
     /* margin: 1.5em 0 1em; */
 }
@@ -262,7 +266,7 @@ html {
 
 #hr-custom {
     border-top: 1px solid gray;
-    box-shadow: 0 0 5.5px rgba(230, 184, 154, .8) !important;
+    box-shadow: 0 0 8px rgba(230, 184, 154, .8) !important;
 
 }
 
@@ -331,6 +335,7 @@ html {
 }
 
 .projectText {
+    font-size: 20px !important;
     background: rgba(19, 19, 35, 0.6);
 }
 
@@ -384,6 +389,11 @@ html {
     color: rgba(0, 0, 0, 0.9);
   }
 
+
+  #disclaimer {
+      color: white;
+      font-size: 12px !important;
+  }
 
   font-family: 'Righteous', cursive;
   font-family: 'Patua One', cursive;
