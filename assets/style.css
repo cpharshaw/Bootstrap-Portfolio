@@ -13,8 +13,10 @@ h6 {
 }
 
 #dp {
-    max-width: 135px;
+    max-width: 200px;
     height: auto;
+    box-shadow: 0 0 7.5px rgba(230, 184, 154, .8) !important;
+    border-radius: 10px;
 }
 
 
@@ -260,6 +262,8 @@ html {
 
 #hr-custom {
     border-top: 1px solid gray;
+    box-shadow: 0 0 5.5px rgba(230, 184, 154, .8) !important;
+
 }
 
 
