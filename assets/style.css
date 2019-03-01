@@ -196,7 +196,10 @@ html {
 
 .background {
     /* height: 100vh; */
-    background-image: url("https://texashillcountry.com/wp-content/uploads/8639407877_2ec6f84184_k.jpg");
+    /* background-image: url("https://texashillcountry.com/wp-content/uploads/8639407877_2ec6f84184_k.jpg"); */
+    /* background-image: url("https://i.pinimg.com/originals/cb/c2/4b/cbc24b1559bba8a8c8d8195d78dec9c3.jpg"); */
+    background-image: url("https://media.cntraveler.com/photos/57893408a3f6784a6a6125e1/master/pass/texas-road-trip-big-bend-GettyImages-491617448.jpg");
+    
     background-attachment: fixed;
 
     /* margin-top: -55px; */
