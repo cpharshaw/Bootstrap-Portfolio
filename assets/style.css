@@ -17,7 +17,7 @@ h6 {
     max-width: auto;
     max-height: 300px;
     box-shadow: 0 0 7.5px rgba(230, 184, 154, .8) !important;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 
@@ -27,7 +27,7 @@ h6 {
     background-color: #bbb;    
     /* box-shadow: 0 0 57.5px rgb(120, 120, 120); */
     box-shadow: 0 0 57.5px rgb(230, 184, 154);
-    border-radius: 20px;
+    border-radius: 7.5px;
 }
 
 /* .secondBackground {
@@ -130,7 +130,11 @@ html {
     background: rgba(19, 19, 30, 0.7);
     box-shadow: 0 0 57.5px rgb(230, 184, 154);
     /* box-shadow: 0 0 57.5px whitesmoke; */
-    border-radius: 20px;
+    border-radius: 7.5px;
+}
+
+.text {
+    font-size: 26.5px !important;
 }
 
 
@@ -143,7 +147,7 @@ html {
 	color: white;
 	text-shadow: 8px 8px 8px black;
 	border: .1px solid white;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	height: 75px;
 	width: 100px;
 	font-size: 3rem;
@@ -286,7 +290,7 @@ html {
     /* color: #3a3a3a !important; */
     color: rgba(226, 226, 226, 0.5) !important;
     text-shadow: 0.5px 0.5px 0.25px whitesmoke !important;
-    font-family: 'La Belle Aurore', cursive !important;
+    font-family: 'Source Sans Pro', sans-serif;
     /* xxx */
     transition: 850ms;
     text-decoration: none;
@@ -324,7 +328,8 @@ html {
 
 
 #myName {
-    font-size: 34px !important;
+    font-size: 24px !important;
+    font-family: 'La Belle Aurore', cursive !important;
 }
 
 .nameLogo {
